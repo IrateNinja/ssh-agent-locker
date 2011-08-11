@@ -1,0 +1,226 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CE04DFC13F38AD500267D01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE04DFB13F38AD500267D01 /* Foundation.framework */; };
+		6CE04DFF13F38AD500267D01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE04DFE13F38AD500267D01 /* main.m */; };
+		6CE04E0A13F38C3900267D01 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE04E0913F38C3900267D01 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6CE04DF513F38AD500267D01 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6CE04DF713F38AD500267D01 /* ssh-agent-locker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ssh-agent-locker"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE04DFB13F38AD500267D01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6CE04DFE13F38AD500267D01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CE04E0913F38C3900267D01 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6CE04E0C13F3904D00267D01 /* com.seaandco.geoff.ssh-agent-locker.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "com.seaandco.geoff.ssh-agent-locker.plist"; sourceTree = "<group>"; };
+		6CE04E1713F39E9C00267D01 /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CE04DF413F38AD500267D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE04DFC13F38AD500267D01 /* Foundation.framework in Frameworks */,
+				6CE04E0A13F38C3900267D01 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CE04DEC13F38AD500267D01 = {
+			isa = PBXGroup;
+			children = (
+				6CE04E1713F39E9C00267D01 /* README.markdown */,
+				6CE04DFD13F38AD500267D01 /* ssh-agent-locker */,
+				6CE04DFA13F38AD500267D01 /* Frameworks */,
+				6CE04DF813F38AD500267D01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CE04DF813F38AD500267D01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CE04DF713F38AD500267D01 /* ssh-agent-locker */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CE04DFA13F38AD500267D01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CE04DFB13F38AD500267D01 /* Foundation.framework */,
+				6CE04E0913F38C3900267D01 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CE04DFD13F38AD500267D01 /* ssh-agent-locker */ = {
+			isa = PBXGroup;
+			children = (
+				6CE04DFE13F38AD500267D01 /* main.m */,
+				6CE04E0C13F3904D00267D01 /* com.seaandco.geoff.ssh-agent-locker.plist */,
+			);
+			path = "ssh-agent-locker";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CE04DF613F38AD500267D01 /* ssh-agent-locker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE04E0613F38AD500267D01 /* Build configuration list for PBXNativeTarget "ssh-agent-locker" */;
+			buildPhases = (
+				6CE04DF313F38AD500267D01 /* Sources */,
+				6CE04DF413F38AD500267D01 /* Frameworks */,
+				6CE04DF513F38AD500267D01 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ssh-agent-locker";
+			productName = "ssh-agent-locker";
+			productReference = 6CE04DF713F38AD500267D01 /* ssh-agent-locker */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CE04DEE13F38AD500267D01 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6CE04DF113F38AD500267D01 /* Build configuration list for PBXProject "ssh-agent-locker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6CE04DEC13F38AD500267D01;
+			productRefGroup = 6CE04DF813F38AD500267D01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CE04DF613F38AD500267D01 /* ssh-agent-locker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CE04DF313F38AD500267D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE04DFF13F38AD500267D01 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6CE04E0413F38AD500267D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6CE04E0513F38AD500267D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6CE04E0713F38AD500267D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		6CE04E0813F38AD500267D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CE04DF113F38AD500267D01 /* Build configuration list for PBXProject "ssh-agent-locker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE04E0413F38AD500267D01 /* Debug */,
+				6CE04E0513F38AD500267D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE04E0613F38AD500267D01 /* Build configuration list for PBXNativeTarget "ssh-agent-locker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE04E0713F38AD500267D01 /* Debug */,
+				6CE04E0813F38AD500267D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CE04DEE13F38AD500267D01 /* Project object */;
+}
